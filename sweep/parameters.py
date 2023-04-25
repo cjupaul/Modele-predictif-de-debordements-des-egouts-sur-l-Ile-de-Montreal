@@ -1,0 +1,18 @@
+parameters = {
+  "runData": True,
+  "runLstm": True,
+  "runMap": True,
+  "runSweep": True,
+  "runInference": True,
+  "runTrain": True,
+  "model_name": "LSTM",
+  "n_features": 13,
+  "n_hidden": 156,
+  "n_layers": 1,
+  "dropout": 0.6904616311903438,
+  "Surverse": "Surverse",
+  "sequence_lenght": 82,
+  "batch_size": 35,
+  "n_classes": 2,
+  "seed": 42,
+}
