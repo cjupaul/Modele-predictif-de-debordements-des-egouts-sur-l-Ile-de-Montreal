@@ -6,20 +6,19 @@
     <li>
       <a href="#synopsis">Synopsis</a>
     <li>
-      <a href="#built-with">Built-with</a>
+      <a href="#outils">Outils</a>
       </ul>
     <li>
       <a href="#pour commencer">Pour commencer</a>
       <ul>
-        <li><a href="#Pré-requis">Pré-requis</a></li>
+        <li><a href="#Prérequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#démarrage">Démarrage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#usage complémentaire">Usage complémentaire</a></li>
     <li><a href="#coordonnées">Coordonnées</a></li>
-    <li><a href="#remerciements">Remerciements</a></li>
+    <li><a href="#bibliographie">Bibliographie</a></li>
   </ol>
 </details>
 
@@ -27,7 +26,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="./Capture.PNG" alt="Logo" width="350" height="200">
+    <img src="autres\Capture.PNG" alt="Logo" width="350" height="200">
   </a>
 
 <!-- SYNOPSIS -->
@@ -41,12 +40,13 @@ Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne versi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With
+## Outils
 
-* <a href="https://pytorch.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="PyTorch" style="width:100px;height:50px;"></a>
+* <a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" style="width:100px;height:50px;"></a>
 
-* <a href="https://pytorch.org/"><img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch" style="width:100px;height:50px;"></a>
+* <a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" style="width:100px;height:50px;"></a>
 
+* <a href="https://www.pytorchlightning.ai/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/PyTorch_Lightning_Logo.png" alt="PyTorch" style="width:100px;height:50px;"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +56,7 @@ Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne versi
 
 <div align="left">
 
-### Pré-requis
+### Prérequis
 
 * Anaconda
 
@@ -74,20 +74,18 @@ Installation des packages
 ```
  - pip install -r requirements.txt
 ```
-Si cela ne fonctionne pas, essayez cette étape :
+Si cela ne fonctionne pas, essayer cette étape :
 
-  1. Allez dans la barre de menu et cliquez sur Terminal.
-  2. Entrer: 
+  1. Allez dans la barre de menu et cliquer sur le terminal. Entrez: 
   ```
   conda init
   ```
-  3. Fermez ce terminal et ouvrez-en un nouveau
-  4. Dans la nouvelle fenêtre de terminal, tapez:
+  3. Fermer ce terminal et ouvrir un nouveau
+  4. Dans la nouvelle fenêtre de ce terminal, entrez:
   ```
    conda info --envs
   ```
-  5. L'environnement virtuel conda devrait être présent dans la liste
-Entrer:
+  5. L'environnement virtuel conda devrait être présent dans la liste. Entrez:
  ```
  conda activate name_of_venv
  ```
@@ -96,7 +94,7 @@ Entrer:
 
 <div align="center">
 
-## Usage
+## Usage complémentaire
 
 <div align="left">
 Utilisation de tensorboard pour visualiser la courbe d'entrainement:
@@ -124,7 +122,7 @@ Première utilisation, veuillez suivre ces étapes dans le terminal :
 
 <div align="left">
 
-Christopher-Junior Paul - www.linkedin.com/in christopher-junior-paul-565a3217a
+Christopher-Junior Paul - https://www.linkedin.com/in/christopher-junior-paul-565a3217a/
 
 Lien du projet: https://github.com/cjupaul/Modele-predictif-de-debordements-des-egouts-sur-l-Ile-de-Montreal
 
@@ -163,40 +161,5 @@ How to use TensorBoard with PyTorch. Récupéré de https://github.com/christian
 DATASETS & DATALOADERS. Récupéré de https://pytorch.org/tutorials/beginner/basics/data_tutorial.html
 
 TORCH.UTILS.DATA. Récupéré de phttps://pytorch.org/docs/stable/data.html
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
-[Python-url]: https://www.python.org/  
-
-
-
