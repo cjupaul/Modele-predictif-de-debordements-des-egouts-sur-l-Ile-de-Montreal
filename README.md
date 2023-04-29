@@ -1,6 +1,15 @@
+# Modèle prédictif de débordements des égouts sur l’île de Montréal 
+
+<!-- PROJECT LOGO -->
+<br />
 <div align="center">
+  <a>
+    <img src="autres\Capture.PNG" alt="Logo" width="350" height="200">
+  </a>
+
+
 <!-- TABLE DES MATIÈRES -->
-<details>
+<details div align="left">
   <summary>Table des matières</summary>
   <ol>
     <li>
@@ -22,13 +31,6 @@
   </ol>
 </details>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a>
-    <img src="autres\Capture.PNG" alt="Logo" width="350" height="200">
-  </a>
-
 <!-- SYNOPSIS -->
 ## Synopsis
 
@@ -42,11 +44,8 @@ Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne versi
 
 ## Outils
 
-* <a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" style="width:100px;height:50px;"></a>
-
-* <a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" style="width:100px;height:50px;"></a>
-
-* <a href="https://www.pytorchlightning.ai/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/PyTorch_Lightning_Logo.png" alt="PyTorch" style="width:100px;height:50px;"></a>
+<a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.pytorchlightning.ai/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/PyTorch_Lightning_Logo.png" alt="PyTorch" style="width:75px;height:35px;"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,4 +161,3 @@ DATASETS & DATALOADERS. Récupéré de https://pytorch.org/tutorials/beginner/ba
 
 TORCH.UTILS.DATA. Récupéré de phttps://pytorch.org/docs/stable/data.html
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
