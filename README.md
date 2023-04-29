@@ -79,12 +79,12 @@ Si cela ne fonctionne pas, essayer cette étape :
   ```
   conda init
   ```
-  3. Fermer ce terminal et ouvrir un nouveau
-  4. Dans la nouvelle fenêtre de ce terminal, entrez:
+  2. Fermer ce terminal et ouvrir un nouveau
+  3. Dans la nouvelle fenêtre de ce terminal, entrez:
   ```
    conda info --envs
   ```
-  5. L'environnement virtuel conda devrait être présent dans la liste. Entrez:
+  4. L'environnement virtuel conda devrait être présent dans la liste. Entrez:
  ```
  conda activate name_of_venv
  ```
@@ -93,9 +93,30 @@ Si cela ne fonctionne pas, essayer cette étape :
 
 <div align="center">
 
+## Exemple
+
+<div align="left">
+
+L'execution du script « main.py » permet l'execution de plusieurs étapes du projet. Aux choix, le script parameters.py permet d'activer ou désactiver certaines étapes. De plus, il permet le choix des paramètres utilisés pour le modèle. L'execution du scrip « main.py » permet d'obtenir toutes les étapes nécessaires. 
+
+  1. « data » execute le preprocessing des données - >  le fichier « data_preprocessing_outputs »
+  2. « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle -> « model_outputs », « inference_outputs », « metrics_outputs » 
+  3. « map » execute la visualisation de la carte géographique - > « map_outputs »
+  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -> Mettre à true dans le script « parameters.py »
+
+***Note: chaque dossier « data, lstm, map, sweep » sont indépendants entre eux ainsi il est possible d'executer chacun individuellement.
+
+```
+python main.py
+```
+
+
+<div align="center">
+
 ## Usage complémentaire
 
 <div align="left">
+
 Utilisation de tensorboard pour visualiser la courbe d'entrainement:
 
   ```
