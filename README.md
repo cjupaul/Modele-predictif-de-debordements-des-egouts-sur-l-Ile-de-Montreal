@@ -22,7 +22,7 @@
       <ul>
         <li><a href="#Prérequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#démarrage">Démarrage</a></li>
+        <li><a href="#exemple">Exemple</a></li>
       </ul>
     </li>
     <li><a href="#usage complémentaire">Usage complémentaire</a></li>
@@ -102,7 +102,7 @@ L'execution du script « main.py » permet l'execution de plusieurs étapes du p
   1. « data » execute le preprocessing des données - >  le fichier « data_preprocessing_outputs »
   2. « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle -> « model_outputs », « inference_outputs », « metrics_outputs » 
   3. « map » execute la visualisation de la carte géographique - > « map_outputs »
-  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -> Mettre à true dans le script « parameters.py »
+  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -> Mettre à « True » dans le script « parameters.py »
 
 ***Note: chaque dossier « data, lstm, map, sweep » sont indépendants entre eux ainsi il est possible d'executer chacun individuellement.
 
