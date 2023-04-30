@@ -1,14 +1,11 @@
 # Modèle prédictif de débordements des égouts sur l’île de Montréal 
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a>
     <img src="autres\Capture.PNG" alt="Logo" width="350" height="200">
   </a>
 
-
-<!-- TABLE DES MATIÈRES -->
 <details div align="left">
   <summary>Table des matières</summary>
   <ol>
@@ -31,23 +28,19 @@
   </ol>
 </details>
 
-<!-- SYNOPSIS -->
 ## Synopsis
 
-Dans le cadre de ce projet, je m’intéresse au problème de débordements des eaux usées sur l'île de Montréal. Plusieurs substances chimiques et organiques se trouvent dans les eaux des égouts. Ces eaux sont traitées dans les usines d’épurations pour éliminer les substances toxiques et renvoyer de l’eau propre dans nos rivières. En temps normal, le système d’égout est capable de gérer les débits d’eau importants et a une capacité suffisante pour répondre à la demande. Cependant, lorsque le débit est élevé, comme en temps de pluies exceptionnelles, cela ne suffit pas et des surversements peuvent se produire lors desquels l’eau non traitée est rejetée dans les rivières, ce qui affecte grandement l’écosystème.
+<p style='text: justify;'> Dans le cadre de ce projet, je m’intéresse au problème de débordements des eaux usées sur l'île de Montréal. Plusieurs substances chimiques et organiques se trouvent dans les eaux des égouts. Ces eaux sont traitées dans les usines d’épurations pour éliminer les substances toxiques et renvoyer de l’eau propre dans nos rivières. En temps normal, le système d’égout est capable de gérer les débits d’eau importants et a une capacité suffisante pour répondre à la demande. Cependant, lorsque le débit est élevé, comme en temps de pluies exceptionnelles, cela ne suffit pas et des surversements peuvent se produire lors desquels l’eau non traitée est rejetée dans les rivières, ce qui affecte grandement l’écosystème.
 
 Mon objectif dans ce projet est de construire un modèle prédictif pour la Ville de Montréal afin de prévenir les surversements d’eaux usées sur l’île de Montréal. Plus précisément, je me concentre sur les évènements pluvieux de l’année 2020, c’est-à-dire du mois de mai à octobre inclusivement.
 
 *Note : J'ai apporté plusieurs amélioration à mon projet. Le notebook présent dans le repo correspond à la première version de celui-ci. Toujours pertinent, il précise la démarche complète du projet.
-
-
+ </p>
 
 ## Outils
 
 <a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.pytorchlightning.ai/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/PyTorch_Lightning_Logo.png" alt="PyTorch" style="width:75px;height:35px;"></a>
-
-
 
 <div align="center">
 
@@ -89,14 +82,13 @@ Si cela ne fonctionne pas, essayez cette étape :
  conda activate name_of_venv
  ```
 
-
-
 <div align="center">
 
 ## Exemple
 
 <div align="left">
 
+<p style='text: justify;'>
 L'execution du script « main.py » permet le déroulement de plusieurs étapes du projet. Au choix, le script « parameters.py » permet d'activer ou désactiver certaines étapes. De plus, il permet le choix des paramètres utilisés pour le modèle. 
 
   1. Le dossier « data » execute le preprocessing des données -->
@@ -109,11 +101,11 @@ L'execution du script « main.py » permet le déroulement de plusieurs étapes 
   - > Mettre à « True » dans le script « parameters.py »
 
 *Note : Chaque dossier « data, lstm, map, sweep » sont indépendants ainsi, il est possible d'executer chacun individuellement.
+</p>
 
 ```
 python main.py
 ```
-
 
 <div align="center">
 
@@ -138,8 +130,6 @@ Première utilisation, veuillez suivre ces étapes dans le terminal :
 
   - Prenez le lien suggéré après
 
-
-
 <div align="center">
 
 ## Coordonnées
@@ -149,8 +139,6 @@ Première utilisation, veuillez suivre ces étapes dans le terminal :
 Christopher-Junior Paul - https://www.linkedin.com/in/christopher-junior-paul-565a3217a/
 
 Lien du projet: https://github.com/cjupaul/Modele-predictif-de-debordements-des-egouts-sur-l-Ile-de-Montreal
-
-
 
 <div align="center">
 
