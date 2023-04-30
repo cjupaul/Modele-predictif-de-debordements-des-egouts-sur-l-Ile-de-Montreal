@@ -40,14 +40,14 @@ Mon objectif dans ce projet est de construire un modèle prédictif pour la Vill
 
 Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne version de mon projet. La nouvelle version est maintenant sans notebook et contient des améliorations dans le code. Cependant, pour plus de détails concernant les étapes du projet, le notebook reste pertinent. C'est pour cette raison il est inséré dans la nouvelle version du projet.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Outils
 
 <a href="https://www.python.org/"><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://pytorch.org/"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" style="width:75px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.pytorchlightning.ai/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/PyTorch_Lightning_Logo.png" alt="PyTorch" style="width:75px;height:35px;"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <div align="center">
 
@@ -88,7 +88,7 @@ Si cela ne fonctionne pas, essayer cette étape :
  ```
  conda activate name_of_venv
  ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <div align="center">
@@ -99,12 +99,16 @@ Si cela ne fonctionne pas, essayer cette étape :
 
 L'execution du script « main.py » permet l'execution de plusieurs étapes du projet. Aux choix, le script parameters.py permet d'activer ou désactiver certaines étapes. De plus, il permet le choix des paramètres utilisés pour le modèle. L'execution du scrip « main.py » permet d'obtenir toutes les étapes nécessaires. 
 
-  1. « data » execute le preprocessing des données - >  le fichier « data_preprocessing_outputs »
-  2. « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle -> « model_outputs », « inference_outputs », « metrics_outputs » 
-  3. « map » execute la visualisation de la carte géographique - > « map_outputs »
-  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -> Mettre à « True » dans le script « parameters.py »
+  1. « data » execute le preprocessing des données -->
+  - > « data_preprocessing_outputs »
+  2. « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle  -->
+  - > « model_outputs », « inference_outputs », « metrics_outputs » 
+  3. « map » execute la visualisation de la carte géographique -->
+  - > « map_outputs »
+  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -->
+  - > Mettre à « True » dans le script « parameters.py »
 
-***Note: chaque dossier « data, lstm, map, sweep » sont indépendants entre eux ainsi il est possible d'executer chacun individuellement.
+Note ***: chaque dossier « data, lstm, map, sweep » sont indépendants entre eux ainsi il est possible d'executer chacun individuellement.
 
 ```
 python main.py
@@ -134,7 +138,7 @@ Première utilisation, veuillez suivre ces étapes dans le terminal :
 
   - Prenez le lien suggéré après
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <div align="center">
 
@@ -146,7 +150,7 @@ Christopher-Junior Paul - https://www.linkedin.com/in/christopher-junior-paul-56
 
 Lien du projet: https://github.com/cjupaul/Modele-predictif-de-debordements-des-egouts-sur-l-Ile-de-Montreal
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <div align="center">
 
