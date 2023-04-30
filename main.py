@@ -7,18 +7,18 @@ def main():
 
 
     if p['runData']:
-        print("fichier data est en cours...")
+        print("dossier data est en cours...")
 
         os.chdir('data')
         subprocess.run(["python", "main_data.py"])
         os.chdir('..')
 
-        print("fichier data est terminé...")
+        print("dossier data est terminé...")
         print(" ")
         
 
     if p['runLstm']:
-        print("fichier lstm est en cours...")
+        print("dossier lstm est en cours...")
 
         file_to_add_lstm = ["data_test.csv","data_train.csv","data_valid.csv"]
 
@@ -30,12 +30,12 @@ def main():
         subprocess.run(["python", "main_lstm.py"])
         os.chdir('..')
 
-        print("fichier lstm est terminé...")
+        print("dossier lstm est terminé...")
         print(" ")
 
 
     if p['runMap']:
-        print("fichier map est en cours...")
+        print("dossier map est en cours...")
 
         file_to_add_map = ["data_test_2020.csv","data_test.csv","df.csv"]
 
@@ -50,12 +50,12 @@ def main():
         subprocess.run(["python", "main_map.py"])
         os.chdir('..')
 
-        print("fichier map est terminé...")
+        print("dossier map est terminé...")
         print(" ")
 
 
     if p['runSweep']:
-        print("fichier sweep est en cours...")
+        print("dossier sweep est en cours...")
 
         file_to_add_sweep = ["data_train.csv","data_valid.csv"]
 
@@ -67,7 +67,7 @@ def main():
         subprocess.run(["python", "main_sweep.py"])
         os.chdir('..')
 
-        print("fichier sweep est terminé...")
+        print("dossier sweep est terminé...")
         print(" ")
 
 

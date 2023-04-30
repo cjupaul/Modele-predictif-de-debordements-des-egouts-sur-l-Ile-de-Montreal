@@ -34,11 +34,11 @@
 <!-- SYNOPSIS -->
 ## Synopsis
 
-Dans le cadre de ce projet, je m’intéresse au problème de surversement des eaux usées sur l'île de Montréal. Plusieurs substances chimiques et organiques se trouvent dans les eaux des égouts. Ces eaux sont traitées dans les usines d’épurations pour éliminer les substances toxiques et renvoyer de l’eau propre dans nos rivières. En temps normal, le système d’égout est capable de gérer les débits d’eau importants et a une capacité suffisante pour répondre à la demande. Cependant, lorsque le débit est élevé, comme en temps de pluies exceptionnelles, cela ne suffit pas et des surversements peuvent survenir où de l’eau non traitée est rejetée dans les rivières et cela affecte grandement l’écosystème.
+Dans le cadre de ce projet, je m’intéresse au problème de débordements des eaux usées sur l'île de Montréal. Plusieurs substances chimiques et organiques se trouvent dans les eaux des égouts. Ces eaux sont traitées dans les usines d’épurations pour éliminer les substances toxiques et renvoyer de l’eau propre dans nos rivières. En temps normal, le système d’égout est capable de gérer les débits d’eau importants et a une capacité suffisante pour répondre à la demande. Cependant, lorsque le débit est élevé, comme en temps de pluies exceptionnelles, cela ne suffit pas et des surversements peuvent se produire lors desquels l’eau non traitée est rejetée dans les rivières, ce qui affecte grandement l’écosystème.
 
-Mon objectif dans ce projet est de construire un modèle prédictif pour la Ville de Montréal afin de prévenir la survenance des surversements d’eaux usées sur l’île de Montréal. Je me concentre davantage sur les évènements pluvieux de l’année c’est-à-dire les mois de mai à octobre inclusivement.
+Mon objectif dans ce projet est de construire un modèle prédictif pour la Ville de Montréal afin de prévenir les surversements d’eaux usées sur l’île de Montréal. Plus précisément, je me concentre sur les évènements pluvieux de l’année 2020, c’est-à-dire du mois de mai à octobre inclusivement.
 
-Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne version de mon projet. La nouvelle version est maintenant sans notebook et contient des améliorations dans le code. Cependant, pour plus de détails concernant les étapes du projet, le notebook reste pertinent. C'est pour cette raison il est inséré dans la nouvelle version du projet.
+*Note : J'ai apporté plusieurs amélioration à mon projet. Le notebook présent dans le repo correspond à la première version de celui-ci. Toujours pertinent, il précise la démarche complète du projet.
 
 
 
@@ -61,30 +61,30 @@ Note***: Le Notebook "Modelisation_de_debordement_notebook" est l'ancienne versi
 
 ### Installation
 
-Créer un environnement virtuel
+Créez un environnement virtuel
 ```
 conda create --name MDD python=3.9
 ```
-Activation de l'environnement virtuel
+Activez l'environnement virtuel
 ```
 - conda activate MDD
 ```
-Installation des packages
+Installez les packages
 ```
  - pip install -r requirements.txt
 ```
-Si cela ne fonctionne pas, essayer cette étape :
+Si cela ne fonctionne pas, essayez cette étape :
 
-  1. Allez dans la barre de menu et cliquer sur le terminal. Entrez: 
+  1. Allez dans la barre de menu et cliquez sur le terminal. Entrez : 
   ```
   conda init
   ```
-  2. Fermer ce terminal et ouvrir un nouveau
-  3. Dans la nouvelle fenêtre de ce terminal, entrez:
+  2. Fermez ce terminal et ouvrez un nouveau
+  3. Dans la nouvelle fenêtre le terminal, entrez :
   ```
    conda info --envs
   ```
-  4. L'environnement virtuel conda devrait être présent dans la liste. Entrez:
+  4. L'environnement virtuel conda devrait être présent dans la liste. Entrez :
  ```
  conda activate name_of_venv
  ```
@@ -97,18 +97,18 @@ Si cela ne fonctionne pas, essayer cette étape :
 
 <div align="left">
 
-L'execution du script « main.py » permet l'execution de plusieurs étapes du projet. Aux choix, le script parameters.py permet d'activer ou désactiver certaines étapes. De plus, il permet le choix des paramètres utilisés pour le modèle. L'execution du scrip « main.py » permet d'obtenir toutes les étapes nécessaires. 
+L'execution du script « main.py » permet le déroulement de plusieurs étapes du projet. Au choix, le script « parameters.py » permet d'activer ou désactiver certaines étapes. De plus, il permet le choix des paramètres utilisés pour le modèle. 
 
-  1. « data » execute le preprocessing des données -->
+  1. Le dossier « data » execute le preprocessing des données -->
   - > « data_preprocessing_outputs »
-  2. « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle  -->
+  2. Le dossier « lstm » execute l'entrainement, l'inférence et l'évaluation du modèle  -->
   - > « model_outputs », « inference_outputs », « metrics_outputs » 
-  3. « map » execute la visualisation de la carte géographique -->
+  3. Le dossier « map » execute la visualisation de la carte géographique -->
   - > « map_outputs »
-  4. « sweep » permet l'optimisation des hyperparamètres si souhaiter -->
+  4. Le dossier « sweep » permet l'optimisation des hyperparamètres si souhaité -->
   - > Mettre à « True » dans le script « parameters.py »
 
-Note ***: chaque dossier « data, lstm, map, sweep » sont indépendants entre eux ainsi il est possible d'executer chacun individuellement.
+*Note : Chaque dossier « data, lstm, map, sweep » sont indépendants ainsi, il est possible d'executer chacun individuellement.
 
 ```
 python main.py
@@ -121,7 +121,7 @@ python main.py
 
 <div align="left">
 
-Utilisation de tensorboard pour visualiser la courbe d'entrainement:
+Utilisation de tensorboard pour visualiser la courbe d'entrainement :
 
   ```
   tensorboard dev upload --logdir ./lightning_logs
@@ -132,7 +132,7 @@ Première utilisation, veuillez suivre ces étapes dans le terminal :
   tensorboard dev upload --logdir ./lightning_logs
   ```
   
-  - Choisir "Oui" (pour la première connexion)
+  - Choisissez "Oui" (pour la première connexion)
 
   - Connectez-vous à votre compte Gmail
 
